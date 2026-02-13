@@ -15,7 +15,6 @@ Rather than focusing on benchmark accuracy, this repository explores how:
 The goal is to bridge convex optimization theory with observable decision geometry.
 
 
----
 
 ## Motivation
 
@@ -37,7 +36,6 @@ are not always visually intuitive.
 This project provides controlled experiments to make these structural properties observable.
 
 
----
 
 ## Experimental Design Philosophy
 
@@ -52,8 +50,6 @@ The objective is structural understanding, not raw performance comparison.
 
 A small high-dimensional experiment is included to verify generalization behavior beyond visualization.
 
-
----
 
 ## Experiments
 
@@ -76,7 +72,6 @@ Observations:
 This demonstrates the trade-off between geometric simplicity and classification rigidity.
 
 
----
 
 ### 2. Kernel Parameter Behavior (RBF γ)
 
@@ -97,7 +92,6 @@ Findings:
 This empirically validates how kernel parameters reshape feature-space geometry.
 
 
----
 
 ### 3. Linear vs Kernel SVM on Nonlinear Data
 
@@ -111,7 +105,6 @@ on data that is not linearly separable in input space.
 The experiment demonstrates how kernel functions implicitly construct higher-dimensional feature spaces without explicitly computing φ(x).
 
 
----
 
 ### 4. High-Dimensional Validation (Optional Extension)
 
@@ -124,7 +117,6 @@ To verify that geometric insights extend beyond visualization:
 This connects geometric intuition with practical high-dimensional performance.
 
 
----
 
 ## Key Structural Insights
 
@@ -137,7 +129,6 @@ From these experiments, several core properties become clear:
 - Kernel functions reshape similarity structure rather than simply adding nonlinearity.
 
 
----
 
 ## Technical Stack
 
@@ -149,10 +140,10 @@ From these experiments, several core properties become clear:
 The implementation emphasizes clarity of analysis rather than framework complexity.
 
 
----
 
 ## Repository Structure
 
+、、、text
 SVM-Geometry-Analysis/
 │
 ├── experiments/
@@ -164,9 +155,7 @@ SVM-Geometry-Analysis/
 ├── plots/
 │
 └── README.md
-
-
----
+、、、
 
 ## Broader Perspective
 
@@ -180,7 +169,6 @@ Although deep learning dominates many large-scale applications, SVM remains high
 This project emphasizes understanding inductive bias and geometric structure rather than treating SVM as a black-box model.
 
 
----
 
 ## Author
 
