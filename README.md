@@ -20,7 +20,7 @@ The goal is to bridge convex optimization theory with observable decision geomet
 
 In the theoretical formulation of SVM, the optimization problem:
 
-min (1/2)||w||² + C Σ ξ_i
+min (1/2)||w||² + C*Σξi
 
 is transformed into a dual maximization problem involving Lagrange multipliers α_i.
 
@@ -29,7 +29,7 @@ While mathematically elegant, the geometric implications of:
 - ||w||
 - Slack variables
 - Kernel functions
-- Hyperparameter bounds 0 ≤ α_i ≤ C
+- Hyperparameter bounds 0 ≤ αi ≤ C
 
 are not always visually intuitive.
 
