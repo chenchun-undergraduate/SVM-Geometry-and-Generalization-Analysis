@@ -143,7 +143,7 @@ The implementation emphasizes clarity of analysis rather than framework complexi
 
 ## Repository Structure
 
-、、、text
+'''text
 SVM-Geometry-Analysis/
 │
 ├── experiments/
@@ -155,7 +155,7 @@ SVM-Geometry-Analysis/
 ├── plots/
 │
 └── README.md
-、、、
+'''
 
 ## Broader Perspective
 
