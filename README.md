@@ -1,4 +1,4 @@
-4k# SVM Geometry and Generalization Analysis
+# SVM Geometry and Generalization Analysis
 
 ## Project Overview
 
