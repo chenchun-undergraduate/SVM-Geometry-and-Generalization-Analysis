@@ -1,10 +1,10 @@
-# SVM Geometry and Generalization Analysis
+4k# SVM Geometry and Generalization Analysis
 
-## Overview
+## Project Overview
 
 This project investigates the geometric and optimization behavior of Support Vector Machines (SVM), extending theoretical derivations of the primal–dual formulation into empirical validation.
 
-Rather than focusing on benchmark accuracy, this repository explores how:
+Rather than focusing on benchmark accuracy, this project explores how:
 
 - Margin maximization relates to minimizing ||w||
 - Soft-margin regularization (C) reshapes decision boundaries
@@ -22,7 +22,7 @@ In the theoretical formulation of SVM, the optimization problem:
 
 min (1/2)||w||² + C*Σξi
 
-is transformed into a dual maximization problem involving Lagrange multipliers α_i.
+is transformed into a dual maximization problem involving Lagrange multipliers αi>0 and μi>0.
 
 While mathematically elegant, the geometric implications of:
 
@@ -53,7 +53,7 @@ A small high-dimensional experiment is included to verify generalization behavio
 
 ## Experiments
 
-### 1. Linear vs Soft Margin (Effect of C)
+### 1. Hard Margin vs Soft Margin (Effect of C)
 
 We vary the regularization parameter C while keeping the dataset fixed.
 
@@ -64,12 +64,19 @@ We analyze:
 - Number of support vectors
 - Sensitivity to margin violations
 
-Observations:
+#### Visual Evidence
+![with big C]
+
+#### Observations
 
 - Small C → wider margin, higher tolerance
 - Large C → narrower margin, sharper separation
 
 This demonstrates the trade-off between geometric simplicity and classification rigidity.
+
+#### Reproducibility
+See implementation:
+
 
 
 
