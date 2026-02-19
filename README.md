@@ -65,7 +65,9 @@ We analyze:
 - Sensitivity to margin violations
 
 #### Visual Evidence
-![with big C]
+![with C = 0.1](visualization/linear SVM C=0.1.png)
+![with C = 1](visualization/linear SVM C=1.png)
+![with C = 100](visualization/linear SVM C=100/png)
 
 #### Observations
 
@@ -76,7 +78,7 @@ This demonstrates the trade-off between geometric simplicity and classification 
 
 #### Reproducibility
 See implementation:
-(experiments/linear_margin_c_analysis.py)
+[linear_margin_c_analysis.py](experiments/linear_margin_c_analysis.py)
 
 
 
