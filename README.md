@@ -65,9 +65,9 @@ We analyze:
 - Sensitivity to margin violations
 
 #### Visual Evidence
-<img src="visualization/linear SVM C=0.1.png" width="700">
-<img src="visualization/linear SVM C=1.png" width="700">
-<img src="visualization/linear SVM C=100.png" width="700">
+<img src="visualization/linear SVM C=0.1.png" width="300">
+<img src="visualization/linear SVM C=1.png" width="300">
+<img src="visualization/linear SVM C=100.png" width="300">
 
 #### Observations
 
