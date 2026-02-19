@@ -76,7 +76,7 @@ This demonstrates the trade-off between geometric simplicity and classification 
 
 #### Reproducibility
 See implementation:
-
+experiments/linear_margin_c_analysis.py
 
 
 
