@@ -74,8 +74,8 @@ We analyze:
 
 #### Observations
 
-- Small C → wider margin, higher tolerance
-- Large C → narrower margin, sharper separation
+- Small C → wider margin, higher tolerance, and typically more support vectors (support vector cannot increase when the data is perfectly linearly separable.)
+- Large C → narrower margin, sharper separation, and fewer active constraints
 
 This demonstrates the trade-off between geometric simplicity and classification rigidity.
 
