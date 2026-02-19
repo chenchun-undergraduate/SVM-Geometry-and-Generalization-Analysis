@@ -154,7 +154,7 @@ The implementation emphasizes clarity of analysis rather than framework complexi
 SVM-Geometry-Analysis/
 │
 ├── experiments/
-│   ├── linear_vs_soft.py
+│   ├── linear_margin_c_analysis.py
 │   ├── rbf_gamma_analysis.py
 │   ├── nonlinear_comparison.py
 │   ├── high_dimensional_validation.py
