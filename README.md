@@ -175,8 +175,7 @@ SVM-Geometry-Analysis/
 ├── experiments/
 │   ├── linear_margin_c_analysis.py
 │   ├── rbf_sigma_analysis.py
-│   ├── nonlinear_comparison.py
-│   ├── high_dimensional_validation.py
+│   ├── linear_vs_rbf.py
 │
 ├── visualization/
 │
