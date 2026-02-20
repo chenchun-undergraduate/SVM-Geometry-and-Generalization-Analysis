@@ -128,6 +128,18 @@ on data that is not linearly separable in input space.
 
 The experiment demonstrates how kernel functions implicitly construct higher-dimensional feature spaces without explicitly computing φ(x).
 
+#### Visual Evidence
+<p align="center">
+ <img src="visualization/LinearVSRBF.png" width="600">
+</p>
+
+#### Observations
+Linear SVM fails to separate the data in input space, whereas the RBF kernel implicitly constructs a higher-dimensional feature representation where linear separation becomes possible.
+
+#### Reproducibility
+see implementation:
+[linear_VS_RBF.py](experiments/linear_vs_rbf.py)
+
 
 
 ### 4. High-Dimensional Validation (Optional Extension)
