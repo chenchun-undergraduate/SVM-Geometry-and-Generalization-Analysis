@@ -1,4 +1,4 @@
-# SVM Geometry and Generalization Analysis
+<img width="432" height="24" alt="image" src="https://github.com/user-attachments/assets/5c5ace2e-8eca-42d6-b046-8e0f376ee527" /># SVM Geometry and Generalization Analysis
 
 ## Project Overview
 
@@ -85,23 +85,31 @@ See implementation:
 
 
 
-### 2. Kernel Parameter Behavior (RBF γ)
+### 2. Kernel Parameter Behavior (RBF σ)
 
-Using nonlinear datasets (e.g., moons), we vary γ while fixing C.
+Using nonlinear datasets (e.g., moons), we vary σ while fixing C.
+<img src="visualization/RBF σ.png" width="300">
 
 We analyze:
 
-- Decision boundary smoothness
-- Local vs global similarity influence
-- Support vector distribution
+- Decision boundary smoothness  
+- Influence radius in input space  
+- Support vector distribution  
 - Overfitting vs underfitting geometry
 
-Findings:
+#### Visual Evidence
+<img src="RBF σ=0.05,0.2,1,5.png" width="300">
 
-- Small γ → smooth, globally influenced boundary
-- Large γ → highly localized boundary, increased curvature
+#### Observations
 
-This empirically validates how kernel parameters reshape feature-space geometry.
+- Small σ → highly localized boundary, increased curvature due to local support influence  
+- Large σ → smooth boundary shaped by globally distributed support vectors
+
+The parameter σ directly controls the radius of similarity influence. Smaller σ produces highly localized decision boundaries with increased curvature, whereas larger σ enforces smoother, globally averaged geometry.
+
+#### Reproducibility
+see implementation:
+[rbf_sigma_analysis.py](experiments/rbf_sigma_analysis.pu)
 
 
 
