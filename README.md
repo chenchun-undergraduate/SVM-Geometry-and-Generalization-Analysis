@@ -106,10 +106,11 @@ We analyze:
 - Large σ → smooth boundary shaped by globally distributed support vectors
 
 The parameter σ directly controls the radius of similarity influence. Smaller σ produces highly localized decision boundaries with increased curvature, whereas larger σ enforces smoother, globally averaged geometry.
+At extreme values, the model exhibits degenerate behavior. Very small σ leads to excessive localization and fragmented boundaries, increasing overfitting risk. Very large σ flattens the kernel into a near-constant similarity function, effectively collapsing the model toward linear behavior and potentially inducing underfitting.
 
 #### Reproducibility
 see implementation:
-[rbf_sigma_analysis.py](experiments/rbf_sigma_analysis.pu)
+[rbf_sigma_analysis.py](experiments/rbf_sigma_analysis.py)
 
 
 
@@ -168,11 +169,11 @@ SVM-Geometry-Analysis/
 │
 ├── experiments/
 │   ├── linear_margin_c_analysis.py
-│   ├── rbf_gamma_analysis.py
+│   ├── rbf_sigma_analysis.py
 │   ├── nonlinear_comparison.py
 │   ├── high_dimensional_validation.py
 │
-├── plots/
+├── visualization/
 │
 └── README.md
 ```
