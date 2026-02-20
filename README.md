@@ -88,7 +88,7 @@ See implementation:
 ### 2. Kernel Parameter Behavior (RBF σ)
 
 Using nonlinear datasets (e.g., moons), we vary σ while fixing C.
-<img src="visualization/RBF σ.png" width="300">
+<img align="center" src="visualization/RBF σ.png" width="300">
 
 We analyze:
 
@@ -98,7 +98,7 @@ We analyze:
 - Overfitting vs underfitting geometry
 
 #### Visual Evidence
-<img src="visualization/RBF σ=0.05,0.2,1,5.png" width="800">
+<img align="center" src="visualization/RBF σ=0.05,0.2,1,5.png" width="800">
 
 #### Observations
 
