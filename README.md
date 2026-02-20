@@ -142,16 +142,6 @@ see implementation:
 
 
 
-### 4. High-Dimensional Validation (Optional Extension)
-
-To verify that geometric insights extend beyond visualization:
-
-- A high-dimensional dataset (e.g., sklearn digits) is used.
-- Linear and RBF SVMs are compared.
-- Support vector counts and generalization behavior are analyzed.
-
-This connects geometric intuition with practical high-dimensional performance.
-
 
 
 ## Key Structural Insights
