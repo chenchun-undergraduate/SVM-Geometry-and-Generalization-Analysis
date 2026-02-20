@@ -98,7 +98,7 @@ We analyze:
 - Overfitting vs underfitting geometry
 
 #### Visual Evidence
-<img src="visulization/RBF σ=0.05,0.2,1,5.png" width="800">
+<img src="visualization/RBF σ=0.05,0.2,1,5.png" width="800">
 
 #### Observations
 
