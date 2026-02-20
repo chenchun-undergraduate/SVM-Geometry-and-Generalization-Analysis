@@ -88,8 +88,9 @@ See implementation:
 ### 2. Kernel Parameter Behavior (RBF σ)
 
 Using nonlinear datasets (e.g., moons), we vary σ while fixing C.
-<img align="center" src="visualization/RBF σ.png" width="300">
-
+<p align="center">
+   <img src="visualization/RBF σ.png" width="300">
+</p>
 We analyze:
 
 - Decision boundary smoothness  
@@ -98,7 +99,9 @@ We analyze:
 - Overfitting vs underfitting geometry
 
 #### Visual Evidence
-<img align="center" src="visualization/RBF σ=0.05,0.2,1,5.png" width="800">
+<p align="center">
+ <img src="visualization/RBF σ=0.05,0.2,1,5.png" width="800">
+</p>
 
 #### Observations
 
